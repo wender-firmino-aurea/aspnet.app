@@ -1,19 +1,12 @@
-FROM node:carbon
+FROM microsoft/dotnet:latest
+COPY ./aspnet_demo /app
+WORKDIR /app
 
-# Create app directory
-WORKDIR /usr/src/app
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
-
-RUN npm install
-# If you are building your code for production
-# RUN npm install --only=production
-
-# Bundle app source
-COPY . .
-
-EXPOSE 8080
-CMD [ "npm", "start" ]
+RUN dotnet restore
+RUN dotnet build
+ 
+EXPOSE 5000/tcp
+ENV ASPNETCORE_URLS http://*:5000
+ENV ASPNETCORE_ENVIRONMENT docker
+ 
+ENTRYPOINT dotnet run

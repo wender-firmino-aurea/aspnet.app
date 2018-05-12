@@ -1,0 +1,11 @@
+/home/wender/aspnet.app/aspnet_demo/bin/Debug/netcoreapp2.0/app.deps.json
+/home/wender/aspnet.app/aspnet_demo/bin/Debug/netcoreapp2.0/app.runtimeconfig.json
+/home/wender/aspnet.app/aspnet_demo/bin/Debug/netcoreapp2.0/app.runtimeconfig.dev.json
+/home/wender/aspnet.app/aspnet_demo/bin/Debug/netcoreapp2.0/app.dll
+/home/wender/aspnet.app/aspnet_demo/bin/Debug/netcoreapp2.0/app.pdb
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.csprojAssemblyReference.cache
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.csproj.CoreCompileInputs.cache
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.AssemblyInfoInputs.cache
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.AssemblyInfo.cs
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.dll
+/home/wender/aspnet.app/aspnet_demo/obj/Debug/netcoreapp2.0/app.pdb
