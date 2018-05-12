@@ -47,23 +47,11 @@ After execute the curl command you will seee some like this:
 
 ```
 HTTP/1.1 200 OK
-Date: Fri, 11 May 2018 23:25:58 GMT
-Server: Apache/2.4.10 (Debian)
-X-Powered-By: PHP/5.6.36
-Vary: Accept-Encoding
-Content-Length: 206
-Content-Type: text/html; charset=UTF-8
+Date: Sat, 12 May 2018 14:51:21 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Test PHP App</title>
-    </head>
-    <body>
-        <p>
-            Congrats this works very fine!<br><HR>Running PHP:5.6.36        </p>
-    </body>
-</html>
+Hello World, from ASP.NET!
 ```
 
 ## License
