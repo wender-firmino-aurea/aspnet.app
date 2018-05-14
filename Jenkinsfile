@@ -13,13 +13,13 @@ pipeline {
         stage('Docker Execute') {
             agent any
             steps {
-                sh 'docker run -p 2345:5000 -d dotnet.app'
+                sh 'docker run -p 8027:5000 -d dotnet.app'
             }
         }
         stage('Docker Test') {
             agent any
             steps {
-                sh 'curl -i localhost:2345'
+                sh 'curl -i localhost:8027'
             }
         }   
     }
