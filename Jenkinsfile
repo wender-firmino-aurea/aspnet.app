@@ -19,7 +19,7 @@ pipeline {
         stage('Docker Test') {
             agent any
             steps {
-                sh 'curl -i localhost:5000'
+                sh 'echo $(wget localhost:5000  -q -O -)'
             }
         }   
     }
